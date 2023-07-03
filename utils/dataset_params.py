@@ -1,0 +1,20 @@
+data_parser = {
+        'ETTh1': {'data': 'ETTh1', 'data_path': 'ETT/ETTh1.csv', 'target': 'OT', 'M': [7, 7, 7], 'S': [1, 1, 1],
+                  'MS': [7, 7, 1], 'freq':'h'},
+        'ETTh2': {'data': 'ETTh2', 'data_path': 'ETT/ETTh2.csv', 'target': 'OT', 'M': [7, 7, 7], 'S': [1, 1, 1],
+                  'MS': [7, 7, 1], 'freq':'h'},
+        'ETTm1': {'data': 'ETTm1', 'data_path': 'ETT/ETTm1.csv', 'target': 'OT', 'M': [7, 7, 7], 'S': [1, 1, 1],
+                  'MS': [7, 7, 1], 'freq':'h'},
+        'ETTm2': {'data': 'ETTm2', 'data_path': 'ETT/ETTm2.csv', 'target': 'OT', 'M': [7, 7, 7], 'S': [1, 1, 1],
+                  'MS': [7, 7, 1], 'freq':'h'},
+        'weather': {'data': 'weather', 'data_path': 'weather/weather.csv', 'target': 'OT', 'M': [21, 21, 21], 'S': [1, 1, 1],
+                    'MS': [21, 21, 1], 'freq':'m'},
+        'exchange_rate': {'data': 'exchange_rate', 'data_path': 'exchange_rate/exchange_rate.csv', 'target': 'OT', 'M': [8, 8, 8], 'S': [1, 1, 1],
+                    'MS': [8, 8, 1], 'freq':'d'},
+        'traffic': {'data': 'traffic', 'data_path': 'traffic/traffic.csv', 'target': 'OT', 'M': [862, 862, 862], 'S': [1, 1, 1],
+                    'MS': [862, 862, 1], 'freq':'h'},
+        'ili': {'data': 'ili', 'data_path': 'illness/national_illness.csv', 'target': 'OT', 'M': [7, 7, 7], 'S': [1, 1, 1],
+                    'MS': [7, 7, 1], 'freq':'d'},
+        'elect': {'data': 'elect', 'data_path': 'electricity/electricity.csv', 'target': 'MT_320', 'M': [321, 321, 321],
+                  'S': [1, 1, 1], 'MS': [321, 321, 1], 'freq':'h'}
+    }
